@@ -19,3 +19,6 @@ A complete implementation of Google OAuth 2.0 authentication.
 
 ---
 *More services will be added to this repository as they are developed.*
+
+
+### 2.Redis setup coming soon......

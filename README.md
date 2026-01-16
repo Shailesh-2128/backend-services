@@ -21,4 +21,21 @@ A complete implementation of Google OAuth 2.0 authentication.
 *More services will be added to this repository as they are developed.*
 
 
-### 2.Redis setup coming soon......
+### 2. Cluster With Express
+A demonstration of improving Node.js performance using the native `cluster` module and response compression.
+- **Location**: `/cluster_Express`
+- **Tech Stack**: Node.js, Express, Native Cluster Module, Compression.
+- **Features**:
+  - Utilizes Node.js `cluster` module to fork worker processes for each CPU core.
+  - Implements `compression` middleware to reduce response body size.
+  - Demonstrates load balancing across multiple worker processes.
+
+### 3. Redis Caching Strategy
+A practical implementation of Redis caching to check backend performance and database load.
+- **Location**: `/redis`
+- **Tech Stack**: Node.js, Express, Redis, MongoDB (Mongoose).
+- **Features**:
+  - Implements Look-Aside Caching strategy for database queries.
+  - Real-time performance monitoring (Cache Hit vs. Cache Miss logging).
+  - Custom cache key generation based on API routes and query parameters.
+  - Significant reduction in response times for frequent read operations.

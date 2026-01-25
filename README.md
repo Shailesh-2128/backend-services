@@ -39,3 +39,7 @@ A practical implementation of Redis caching to check backend performance and dat
   - Real-time performance monitoring (Cache Hit vs. Cache Miss logging).
   - Custom cache key generation based on API routes and query parameters.
   - Significant reduction in response times for frequent read operations.
+
+
+### 4. Rate limit......
+
